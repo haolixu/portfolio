@@ -176,7 +176,7 @@ export async function getStaticProps({ params }) {
 export default Post
 ```
 
-To learn more about how `getStaticPaths` works, check out the [Data Fetching documentation](/docs/basic-features/data-fetching.md#getstaticpaths-static-generation).
+To learn 1more about how `getStaticPaths` works, check out the [Data Fetching documentation](/docs/basic-features/data-fetching.md#getstaticpaths-static-generation).
 
 ### When should I use Static Generation?
 
