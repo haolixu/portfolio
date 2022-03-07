@@ -6,7 +6,8 @@ tags: [Notebooks/nb404, 新分区 1]
 ---
 
 # life
-![image](https://user-images.githubusercontent.com/26183306/156995429-f255e473-9ee4-41ea-a084-51ce68f00c8d.png)
+![text_1646641649148](https://user-images.githubusercontent.com/26183306/156996026-11c0d075-1894-4e09-b941-cd443760d94d.jpeg)
+
 good weather🏖️
 
  
