@@ -1,5 +1,4 @@
 import ReactDOM from 'react-dom'
-import document from 'next/document'
 
 function Welcome(props) {
   return <h1>Hello, {props.name}</h1>;
@@ -8,5 +7,4 @@ function Welcome(props) {
 const element = <Welcome name="Sara" />;
 ReactDOM.render(
   element,
-  document.getElementById('root')
 );
