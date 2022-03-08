@@ -1,12 +1,20 @@
-import ReactDOM from 'react-dom'
-
-function Welcome(props) {
-  return <h1>Hello, {props.name}</h1>;
+function Blog({ posts }) {
+  // Render posts...
 }
 
-const element = <Welcome name="Sara" />;
-ReactDOM.render(
-  element,
-  document.getElementById('root')
+// This function gets called at build time
+export async function getStaticProps() {
+  // Call an external API endpoint to get posts
+  const res = await fetch('http://1.nb404.cn:12/graphql')
+  const posts = await res.json()
 
-);
+  // By returning { props: { posts } }, the Blog component
+  // will receive `posts` as a prop at build time
+  return {
+    props: {
+      posts
+    }
+  }
+}
+
+export default Blog
