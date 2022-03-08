@@ -5,7 +5,7 @@ function Blog({ posts }) {
 // This function gets called at build time
 export async function getStaticProps() {
   // Call an external API endpoint to get posts
-  const res = await fetch('http://1.nb404.cn:12/graphql')
+  const res = await fetch('https://www.nb404.cn/posts')
   const posts = await res.json()
 
   // By returning { props: { posts } }, the Blog component
