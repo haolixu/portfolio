@@ -1,15 +1,5 @@
 {
-  "babel": {
-    "presets": [
-      [
-        "react-app",
-        {
-          "runtime": "automatic"
-        }
-      ]
-    ]
-  }
-  
+ 
   "private": true,
   "license": "MIT",
   "scripts": {
