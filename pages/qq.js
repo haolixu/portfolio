@@ -1,6 +1,5 @@
 import ReactDOM from 'react-dom'
-import React from 'react'
-
+import document from 'next/document'
 
 function Welcome(props) {
   return <h1>Hello, {props.name}</h1>;
